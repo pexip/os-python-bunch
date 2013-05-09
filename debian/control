@@ -1,0 +1,13 @@
+Source: python-bunch
+Section: python
+Priority: optional
+Maintainer: Pexip AS <packaging@pexip.com>
+Build-Depends: debhelper (>= 8.0.0), python-all (>= 2.6.6-3~), python-setuptools
+Standards-Version: 3.9.2
+Homepage: http://github.com/dsc/bunch
+
+Package: python-bunch
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Description: A dot-accessible dictionary (a la JavaScript objects)
+ Bunch is a dictionary that supports attribute-style access, a la JavaScript.
